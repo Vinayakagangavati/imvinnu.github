@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Form</title>
+   <style>
+    body{
+    margin:20px 20px 20px 20px;
+    border:5px solid rgb(232, 168, 8);
+    border-radius:1px;
+    background-color:black;
+   }
+   form{
+    padding:1cm;
+    background-color: beige;
+   }
+.gf{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: normal;
+    color: brown;
+}
+input[type='text'],input[type='email'],input[type='tel'],select{
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    width:100%;
+    padding:15px;
+    padding-right: 5px;
+}
+.female,.disclose{
+    padding-left:1.55cm;
+}
+input[type="submit"]{
+    cursor: pointer;
+    width:5cm;
+    height:1cm;
+    color:brown;
+    border: 1px solid black;
+    background-color:bisque;
+    margin-left:16cm;
+}
+</style>
+</head>
+    <form>
+        <p class="gf">Google Form</p>
+        <hr>
+        <p>Name : <input type='text'  class='stname' placeholder="Enter your name" required></p>
+        <p>College Name : <input type='text' placeholder="Enter the name of college"></p>
+        <p>USN : <input type="text" placeholder="Enter University Serial number" required></p>
+        <p>Gender :<label> <input type='radio' value="Male" name="Gender">Male</label>
+                    <p class="female"><label><input type="radio" value="Female" name="Gender">Female</label></p>
+                    <p class="disclose"><label><input type="radio" value="Cannot Disclose" name="Gender">Cannot Disclose</label></p></p>
+        <p>Email : <input type="email" placeholder="Enter the Email" required></p>
+        <p>Phone: <input type="tel" placeholder="1234567890" pattern="[0-9]{10}"></p>
+        <p>Branch : <select placeholder="Select your Branch" required>
+            <option value="CS">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="IS">IS</option>
+            <option value="EEE">EEE</option>
+            <option value="CV">CV</option>
+            <option value="ML">ML</option>
+        </select></p>
+        <p>Known Programming Languages:</p>
+                                 <p> <label> <input type="checkbox" value="C"> Basics of C</label></p>
+                                 <p> <label> <input type="checkbox" value="C++"> C++</label></p>
+                                 <p> <label> <input type="checkbox" value="SQL"> Structed Query language </label></p>
+                                 <p> <label> <input type="checkbox" value="HTML"> Hyper Text Markup Language </label></p>
+                                 <p> <label> <input type="checkbox" value="CSS"> Cascading Style Sheets </label></p>
+                                 <p> <label> <input type="checkbox" value="JS"> Java Scprit</label></p>
+        <p class="submit"><input type="submit" ></p>
+    </form>
+</body>
+</html>

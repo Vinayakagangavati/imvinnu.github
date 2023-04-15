@@ -1,0 +1,162 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 1cm 5cm 1cm 13cm;
+}
+nav a{
+    padding: 1cm;
+    text-decoration: none;
+    color:black;
+    font-size: x-large;
+    font-family: 'Forum', cursive;
+    font-weight: 500;
+}
+nav a:hover{
+    color: red;
+}
+.container{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.item1{
+    font-family: 'Forum';
+    font-size: xx-large;
+    font-weight: 100;
+    font-style: italic;
+    grid-column-start:3;
+    grid-column-end: 4;
+}
+.item2{
+    grid-column-start: 4;
+    grid-column-end:5;
+    grid-row-start:1;
+    grid-row-end:3;
+}
+.ref{
+  padding: 0 0 0 5cm;
+  font-family:'Forum';
+  font-size: x-large;
+  font-weight: 100;   
+}
+.profileitem{
+    margin-top:2cm;
+    display:grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    margin-left:3cm;   
+}
+.profile1{
+    padding:10px 30px 10px 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 3cm;
+    border:2px solid rgb(91, 189, 21);
+    border-radius: 15px;
+    font-family: 'Forum';
+    
+}
+h4{
+    font-family: 'Forum';
+    font-size: large;
+    padding-top:5px ;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+   
+}
+.info{
+    padding: 20px;
+    font-family: 'Forum';
+    line-height: 1cm;
+    text-align: justify;
+}
+.profile2{
+    padding:10px 20px 10px 20px;
+    margin-right: 2cm;
+    grid-column-start: 2;
+    grid-column-end: 3;  
+    border:2px solid rgb(91, 189, 21);
+    border-radius: 15px;
+}
+.anime{
+    font-family: 'Forum';
+    line-height: 1cm;
+    text-align: justify;
+}
+ul li{
+    list-style-type:none;
+    text-align: center;
+    text-decoration: none;
+}
+.mail{
+    position: relative;
+    left:40%;
+    top:1.4%;
+    width:60px;
+}
+.hello{
+    position:relative;
+    bottom:3vh;
+    left:45%;
+    color: black;
+    text-decoration: none;
+    font-size: smaller;
+    font-family: 'Forum';
+}
+.twit{
+    margin-top:0.5cm;
+} 
+.twitter{
+    position:relative;
+    left:40.5%;
+    top:0.5vh;
+}
+.twitter1{
+    position:relative;
+    left:48%;
+    bottom:2.5vh;
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    font-family: 'Forum';
+}
+.linkedin{
+    margin-top:0.5cm;
+    position:relative;
+    left:40.5%;
+    top:0.5vh;
+}
+.link{
+    position:relative;
+    left:48%;
+    bottom:2vh;
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    font-family: 'Forum';
+}
+.contact{
+     margin-top:0.5cm;
+     position: relative;
+     left:40.5%;
+     top:0.5vh;
+}
+i{
+    position: relative;
+    top:-2vh;
+    left:47%;
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    font-family: 'Forum';
+}
+body{
+    background-image:url(mainbackground.jpg);
+    background-size: cover;
+}
+.ions{
+    margin-top:2cm;
+    font-family: 'Forum';
+    font-size: large;
+}
+
